@@ -1,0 +1,51 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стилі для заголовка */
+.profile-header {
+    text-align: center;
+    background-color: #7fbfc4;
+    color: white;
+    padding: 20px;
+}
+
+/* Стилі для блоку з інформацією про профіль */
+.profile-info {
+    background-color: #dff0d8; /* Зелений колір з легким відтінком */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Стилі для імені та інших основних даних */
+.profile-info h2, .profile-info p {
+    margin: 10px 0;
+    color: #3c763d; /* Темно-зелений колір для тексту */
+}
+
+/* Стилі для кнопок */
+.button {
+    display: inline-block;
+    background-color: #5cb85c; /* Зелений колір */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #4cae4c; /* Темно-зелений колір при наведенні */
+}
